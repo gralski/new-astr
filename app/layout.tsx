@@ -11,6 +11,9 @@ import { validateConfig } from "@/lib/config";
 // Validate configuration at app initialization
 validateConfig();
 
+// Force dynamic rendering for authentication
+export const dynamic = 'force-dynamic';
+
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
